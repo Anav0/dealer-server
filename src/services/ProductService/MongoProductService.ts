@@ -1,6 +1,6 @@
 import {IProductService} from "./IProductService";
-import {Category} from "../../models/category";
-import {Product, ProductModel} from "../../models/product";
+import {Category} from "../../common/models/category";
+import {Product, ProductModel} from "../../common/models/product";
 
 export default class MongoProductService implements IProductService{
     async getAllProducts(): Promise<Array<Product>> {

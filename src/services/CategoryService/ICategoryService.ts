@@ -1,4 +1,4 @@
-import {Category} from "../../models/category";
+import {Category} from "../../common/models/category";
 
 export interface ICategoryService{
      getAllCategories(): Promise<Array<Category>>;
