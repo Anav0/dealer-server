@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e05c3866-91b0-4038-a26b-cb0815dfc7f5" name="Default Changelist" comment="" />
+    <list default="true" id="e05c3866-91b0-4038-a26b-cb0815dfc7f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1amAhjHaD3AzD1lzDA2rn4LVpBa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,6 +29,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Projects\dealer-server\node_modules\typescript\lib" />
   </component>
@@ -52,6 +63,10 @@
       <option name="presentableId" value="Default" />
       <updated>1587330516164</updated>
       <workItem from="1587330517565" duration="196000" />
+      <workItem from="1587333387357" duration="995000" />
+      <workItem from="1587385215609" duration="9000" />
+      <workItem from="1587412808606" duration="2259000" />
+      <workItem from="1587463820574" duration="613000" />
     </task>
     <servers />
   </component>
@@ -79,5 +94,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="239" width="583" height="562" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587330581470" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587414378696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587414378696" />
   </component>
 </project>
