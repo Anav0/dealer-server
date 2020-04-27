@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e05c3866-91b0-4038-a26b-cb0815dfc7f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/ProducerService/IProducerService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ProducerService/MongoProducerService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/DbService/IDbConnectionService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/DbService/MongoDbConnectionService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common" beforeDir="false" afterPath="$PROJECT_DIR$/src/common" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/models/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/models/product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ProductService/IProductService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ProductService/IProductService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ProductService/MongoProductService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ProductService/MongoProductService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/activeServices.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/activeServices.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/dbConnection.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +44,9 @@
     <property name="ts.external.directory.path" value="C:\Projects\dealer-server\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\dealer-server\src\services\DbService" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\dealer-server\src\services" />
     </key>
@@ -80,6 +86,7 @@
       <workItem from="1587729959766" duration="14000" />
       <workItem from="1587729986999" duration="1049000" />
       <workItem from="1587911842659" duration="827000" />
+      <workItem from="1587999513142" duration="1467000" />
     </task>
     <servers />
   </component>
@@ -91,26 +98,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587480334701" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1587912067579">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1588007355335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587912067579" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1587912067579">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588007355335" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1588007355335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587912067579" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1587912067579">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588007355335" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1588007355335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587912067579" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1587912067579">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588007355335" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1588007355335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587912067579" />
-    <state x="668" y="239" width="583" height="562" key="find.popup" timestamp="1587330581470">
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588007355335" />
+    <state x="668" y="239" width="583" height="562" key="find.popup" timestamp="1588007059103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="239" width="583" height="562" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587330581470" />
+    <state x="668" y="239" width="583" height="562" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588007059103" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587480888263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
