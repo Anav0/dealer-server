@@ -3,7 +3,7 @@ import {Category} from "../../common/models/category";
 import {Product, ProductModel} from "../../common/models/product";
 import {Producer} from "../../common/models/producer";
 
-export default class MongoProductService implements IProductService{
+export default class MongoProductService implements IProductService {
     async getAllProducts(): Promise<Product[]> {
         return ProductModel.find().populate("producent category")
     }
@@ -22,6 +22,10 @@ export default class MongoProductService implements IProductService{
 
     async getById(id: string): Promise<Product> {
         return ProductModel.findById(id).populate("producent category")
+    }
+
+    async getByArrayOfIds(ids: string[]): Promise<Product[]> {
+        return ProductModel.find({_id: {$in: ids}}).populate("producent category")
     }
 
 }

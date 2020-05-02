@@ -1,6 +1,7 @@
 import {ICategoryService} from "./ICategoryService";
 import {Category, CategoryModel} from "../../common/models/category";
 
+/* WZORZEC STRATEGY - konkretna implementacja ICategoryService */
 export default class MongoCategoryService implements ICategoryService{
     async getAllCategories(): Promise<Category[]> {
         const results = await CategoryModel.find().populate('producers');

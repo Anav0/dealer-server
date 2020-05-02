@@ -7,7 +7,7 @@ import MongoProducerService from "./ProducerService/MongoProducerService";
 import {IDbConnectionService} from "./DbService/IDbConnectionService";
 import {MongoDbConnectionService} from "./DbService/MongoDbConnectionService";
 
-// WZORZEC SINGLETON
+/* WZORZEC SINGLETON */
 class ActiveServices {
     /* prywatne pola inicjalizowane w konstruktorze.
      Można by było je wstrzykiwać poprzez jakąś formą Dependency Injection */
