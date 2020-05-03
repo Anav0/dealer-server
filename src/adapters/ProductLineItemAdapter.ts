@@ -3,7 +3,7 @@ import {Product} from "../common/models/product";
 
 /*
  WZORZEZ ADAPTER
- Adaptuje klasę Product do klasy LineItem która jest wymagana przez interfejsu biblioteki płatniczej stripe
+ Adaptuje klasę Product do klasy LineItem która jest wymagana przez interfejs biblioteki płatniczej stripe
 */
 export class ProductLineItemAdapter implements ILineItem {
     amount: number;
