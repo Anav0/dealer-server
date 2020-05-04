@@ -2,8 +2,17 @@ import {IProductService} from "./IProductService";
 import {Category} from "../../common/models/category";
 import {Product, ProductModel} from "../../common/models/product";
 import {Producer} from "../../common/models/producer";
+import {FileLogger} from "../LoggerService/FileLogger";
+import {ILogger} from "../LoggerService/ILogger";
+import {LoggerLevels} from "../LoggerService/LoggerLevels";
 
 export default class MongoProductService implements IProductService {
+    logger: ILogger;
+
+    constructor() {
+        this.logger = new FileLogger('product-service.txt')
+    }
+
     async getAllProducts(): Promise<Product[]> {
         return ProductModel.find().populate("producent category")
     }
@@ -21,6 +30,7 @@ export default class MongoProductService implements IProductService {
     }
 
     async getById(id: string): Promise<Product> {
+        await this.logger.log(LoggerLevels.Debug, `getById(${id})`, new Date())
         return ProductModel.findById(id).populate("producent category")
     }
 
