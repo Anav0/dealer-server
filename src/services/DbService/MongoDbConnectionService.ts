@@ -5,7 +5,7 @@ export class MongoDbConnectionService implements IDbConnectionService {
     public conn: mongoose.Mongoose;
 
     async connect(): Promise<void> {
-        this.conn = await mongoose.connect('mongodb://localhost:27017/admin', {
+        this.conn = await mongoose.connect(process.env.MONGO_CONN, {
             useUnifiedTopology: true,
             useNewUrlParser: true
         });

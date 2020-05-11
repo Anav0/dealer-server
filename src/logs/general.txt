@@ -4,3 +4,12 @@
 5/10/2020, 18:56:53	Info:	Server started
 5/11/2020, 13:31:32	Info:	Server started
 5/11/2020, 20:10:10	Info:	Server started
+5/11/2020, 20:53:04	Info:	Server started
+5/11/2020, 20:55:56	Info:	Server started
+5/11/2020, 20:56:23	Error:	No producerId given as param
+5/11/2020, 20:56:33	Error:	No producerId given as param
+5/11/2020, 20:57:09	Info:	Server started
+5/11/2020, 20:58:23	Error:	No producerId given as param
+5/11/2020, 20:58:25	Error:	No producerId given as param
+5/11/2020, 21:08:01	Info:	Server started
+5/11/2020, 21:08:22	Info:	Server started
