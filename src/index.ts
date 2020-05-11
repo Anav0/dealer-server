@@ -13,7 +13,7 @@ import {ILogger} from "./services/LoggerService/ILogger";
 const logger: ILogger = new FileLogger('general.txt')
 dotenv.config()
 const app = express();
-const port = 8080;
+const port = 80;
 
 app.use(cors())
 app.use(bodyParser.urlencoded({extended: false}))
