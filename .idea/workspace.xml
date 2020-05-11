@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e05c3866-91b0-4038-a26b-cb0815dfc7f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logs/general.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/logs/general.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/DbService/MongoDbConnectionService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/DbService/MongoDbConnectionService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
