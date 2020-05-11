@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e05c3866-91b0-4038-a26b-cb0815dfc7f5" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/logs/general.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/LoggerService/ILogger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/LoggerService/LoggerLevels.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dealer-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tabernam-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common" beforeDir="false" afterPath="$PROJECT_DIR$/src/common" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/logger/ILogger.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/logger/LoggerLevels.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/FileLogger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/LoggerService/FileLogger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/models/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/models/product.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/ProductService/IProductService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ProductService/IProductService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ProductService/MongoProductService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ProductService/MongoProductService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/activeServices.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/activeServices.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,11 @@
       <workItem from="1588508295963" duration="23000" />
       <workItem from="1588508344937" duration="4488000" />
       <workItem from="1588611174504" duration="607000" />
-      <workItem from="1588611788357" duration="1352000" />
+      <workItem from="1588611788357" duration="2490000" />
+      <workItem from="1588681961745" duration="600000" />
+      <workItem from="1588858160387" duration="25000" />
+      <workItem from="1589127595822" duration="2492000" />
+      <workItem from="1589196673004" duration="4047000" />
     </task>
     <servers />
   </component>
@@ -128,29 +128,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588442999964" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1588611800108">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1589207023987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588611800108" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1588611800108">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589207023987" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1589207023987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588611800108" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1588611800108">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589207023987" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1589207023987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588611800108" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1588611800108">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589207023987" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1589207023987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588611800108" />
-    <state x="668" y="239" width="583" height="566" key="find.popup" timestamp="1588523802079">
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589207023987" />
+    <state x="668" y="239" width="583" height="566" key="find.popup" timestamp="1589198636082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="239" width="583" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588523802079" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588611397084">
+    <state x="668" y="239" width="583" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589198636082" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588617905073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588611397084" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588617905073" />
   </component>
 </project>

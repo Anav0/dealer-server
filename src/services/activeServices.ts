@@ -25,7 +25,7 @@ class ActiveServices {
 
     /* Pola można tylko pobrać a nie ponownie nadać im wartość */
     public getCategoryService(): ICategoryService {
-      return this.categoryService;
+        return this.categoryService;
     }
 
     public getProductService(): IProductService {

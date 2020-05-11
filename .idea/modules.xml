@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dealer-server.iml" filepath="$PROJECT_DIR$/.idea/dealer-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tabernam-server.iml" filepath="$PROJECT_DIR$/.idea/tabernam-server.iml" />
     </modules>
   </component>
 </project>

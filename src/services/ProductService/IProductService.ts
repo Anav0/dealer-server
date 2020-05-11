@@ -7,7 +7,7 @@ import {ILogger} from "../LoggerService/ILogger";
 /*
 * Każdy z wariantów IProductService może skorzystać z dowolnego wariantu ILogger
 */
-export interface IProductService {
+    export interface IProductService {
 
     logger: ILogger;
 
